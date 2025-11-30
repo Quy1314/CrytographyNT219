@@ -1,0 +1,11 @@
+[
+  {
+    "algorithm": "AES-256-XTS",
+    "operation_mode": "XTS",
+    "aead_enabled": false,
+    "output_file": "Encrypted_Files/16KB_XTS_ENCRYPTED.bin",
+    "output_encoding": "hex",
+    "iv_hex": "AABBCCDDEEFF00112233445566778899",
+    "key_hash_sha256": "529453ab126d1fe8918a605bace544e4e721fd083947a96ba1ccd3f5da3f1191"
+  }
+]

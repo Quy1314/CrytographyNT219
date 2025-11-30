@@ -1,0 +1,36 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        // ---------------------------
+        // MinGW (g++) build task
+        // ---------------------------
+        {
+            "type": "shell",
+            "label": "C/C++: g++.exe build active file (MinGW)",
+            "command": "C:\\msys64\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-g2",
+                "-O3",
+                "-DNDEBUG",
+                "${file}",
+                "-o",
+                "${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "-D_WIN32_WINNT=0x0501",
+                "-lpthread",
+                "-LC:\\Documentss\\Cryptography\\LAB02\\lib\\cryptopp\\gcc", // Sửa đường dẫn đến thư mục libcryptopp
+                "-l:libcryptopp.a",
+                "-IC:\\Documentss\\Cryptography\\LAB02\\include\\cryptopp", // Sửa đường dẫn đến thư mục include chứa file header
+                "-Wall"
+            ],
+            "options": {
+                "cwd": "${fileDirname}" // Sửa đường dẫn thư mục làm việc hiện tại
+            },
+            "problemMatcher": ["$gcc"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "compiler: MinGW g++.exe"
+        }
+    ]
+}

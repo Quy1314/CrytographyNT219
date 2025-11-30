@@ -1,0 +1,8 @@
+Connecting to 163.70.159.35
+depth=2 C=US, O=DigiCert Inc, OU=www.digicert.com, CN=DigiCert Global Root G2
+verify return:1
+depth=1 C=US, O=DigiCert Inc, CN=DigiCert Global G2 TLS RSA SHA256 2020 CA1
+verify return:1
+depth=0 C=US, ST=California, L=Menlo Park, O=Meta Platforms, Inc., CN=*.facebook.com
+verify return:1
+DONE

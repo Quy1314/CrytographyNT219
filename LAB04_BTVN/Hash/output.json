@@ -1,0 +1,16 @@
+[
+  {
+    "timestamp": "2025-11-26 13:06:37",
+    "mode": "SHA-256",
+    "input_size_bytes": 104857602,
+    "output_file": "output",
+    "runtime_seconds": 0.124617
+  },
+  {
+    "timestamp": "2025-11-26 13:07:52",
+    "mode": "SHA-256",
+    "input_size_bytes": 1048578,
+    "output_file": "output",
+    "runtime_seconds": 0.002021
+  }
+]

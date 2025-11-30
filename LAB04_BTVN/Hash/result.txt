@@ -1,0 +1,192 @@
+==== Hash Benchmark Results ====
+Times: 1000
+Start: 11/29/2025 10:41:14
+
+----- File: .\1MB.bin (1048578 bytes) -----
+[+] Running: .\hash.exe --mode SHA-224 --benchmark -t 1000 --in ".\1MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 0.462810 s
+Avg Time:   0.000463 s/run
+Throughput: 2160.72 MB/s
+
+[+] Running: .\hash.exe --mode SHA-256 --benchmark -t 1000 --in ".\1MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 0.462243 s
+Avg Time:   0.000462 s/run
+Throughput: 2163.37 MB/s
+
+[+] Running: .\hash.exe --mode SHA-384 --benchmark -t 1000 --in ".\1MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 1.463854 s
+Avg Time:   0.001464 s/run
+Throughput: 683.13 MB/s
+
+[+] Running: .\hash.exe --mode SHA-512 --benchmark -t 1000 --in ".\1MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 1.411447 s
+Avg Time:   0.001411 s/run
+Throughput: 708.49 MB/s
+
+[+] Running: .\hash.exe --mode SHA3-224 --benchmark -t 1000 --in ".\1MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 1.645503 s
+Avg Time:   0.001646 s/run
+Throughput: 607.72 MB/s
+
+[+] Running: .\hash.exe --mode SHA3-256 --benchmark -t 1000 --in ".\1MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 1.746271 s
+Avg Time:   0.001746 s/run
+Throughput: 572.65 MB/s
+
+[+] Running: .\hash.exe --mode SHA3-384 --benchmark -t 1000 --in ".\1MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 2.313290 s
+Avg Time:   0.002313 s/run
+Throughput: 432.29 MB/s
+
+[+] Running: .\hash.exe --mode SHA3-512 --benchmark -t 1000 --in ".\1MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 3.358527 s
+Avg Time:   0.003359 s/run
+Throughput: 297.75 MB/s
+
+[+] Running: .\hash.exe --mode SHAKE128 --benchmark -t 1000 --in ".\1MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 1.425612 s
+Avg Time:   0.001426 s/run
+Throughput: 701.45 MB/s
+
+[+] Running: .\hash.exe --mode SHAKE256 --benchmark -t 1000 --in ".\1MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 1.740584 s
+Avg Time:   0.001741 s/run
+Throughput: 574.52 MB/s
+
+
+----- File: .\10MB.bin (10485762 bytes) -----
+[+] Running: .\hash.exe --mode SHA-224 --benchmark -t 1000 --in ".\10MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 4.681123 s
+Avg Time:   0.004681 s/run
+Throughput: 2136.24 MB/s
+
+[+] Running: .\hash.exe --mode SHA-256 --benchmark -t 1000 --in ".\10MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 4.663166 s
+Avg Time:   0.004663 s/run
+Throughput: 2144.47 MB/s
+
+[+] Running: .\hash.exe --mode SHA-384 --benchmark -t 1000 --in ".\10MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 16.098060 s
+Avg Time:   0.016098 s/run
+Throughput: 621.19 MB/s
+
+[+] Running: .\hash.exe --mode SHA-512 --benchmark -t 1000 --in ".\10MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 17.757005 s
+Avg Time:   0.017757 s/run
+Throughput: 563.16 MB/s
+
+[+] Running: .\hash.exe --mode SHA3-224 --benchmark -t 1000 --in ".\10MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 19.181179 s
+Avg Time:   0.019181 s/run
+Throughput: 521.34 MB/s
+
+[+] Running: .\hash.exe --mode SHA3-256 --benchmark -t 1000 --in ".\10MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 21.248431 s
+Avg Time:   0.021248 s/run
+Throughput: 470.62 MB/s
+
+[+] Running: .\hash.exe --mode SHA3-384 --benchmark -t 1000 --in ".\10MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 26.857330 s
+Avg Time:   0.026857 s/run
+Throughput: 372.34 MB/s
+
+[+] Running: .\hash.exe --mode SHA3-512 --benchmark -t 1000 --in ".\10MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 39.352945 s
+Avg Time:   0.039353 s/run
+Throughput: 254.11 MB/s
+
+[+] Running: .\hash.exe --mode SHAKE128 --benchmark -t 1000 --in ".\10MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 16.816025 s
+Avg Time:   0.016816 s/run
+Throughput: 594.67 MB/s
+
+[+] Running: .\hash.exe --mode SHAKE256 --benchmark -t 1000 --in ".\10MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 20.733261 s
+Avg Time:   0.020733 s/run
+Throughput: 482.32 MB/s
+
+
+----- File: .\100MB.bin (104857602 bytes) -----
+[+] Running: .\hash.exe --mode SHA-224 --benchmark -t 1000 --in ".\100MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 55.124613 s
+Avg Time:   0.055125 s/run
+Throughput: 1814.07 MB/s
+
+[+] Running: .\hash.exe --mode SHA-256 --benchmark -t 1000 --in ".\100MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 54.848293 s
+Avg Time:   0.054848 s/run
+Throughput: 1823.21 MB/s
+
+[+] Running: .\hash.exe --mode SHA-384 --benchmark -t 1000 --in ".\100MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 165.302540 s
+Avg Time:   0.165303 s/run
+Throughput: 604.95 MB/s
+
+[+] Running: .\hash.exe --mode SHA-512 --benchmark -t 1000 --in ".\100MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 166.111843 s
+Avg Time:   0.166112 s/run
+Throughput: 602.00 MB/s
+
+[+] Running: .\hash.exe --mode SHA3-224 --benchmark -t 1000 --in ".\100MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 197.471561 s
+Avg Time:   0.197472 s/run
+Throughput: 506.40 MB/s
+
+[+] Running: .\hash.exe --mode SHA3-256 --benchmark -t 1000 --in ".\100MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 196.643615 s
+Avg Time:   0.196644 s/run
+Throughput: 508.53 MB/s
+
+[+] Running: .\hash.exe --mode SHA3-384 --benchmark -t 1000 --in ".\100MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 265.987997 s
+Avg Time:   0.265988 s/run
+Throughput: 375.96 MB/s
+
+[+] Running: .\hash.exe --mode SHA3-512 --benchmark -t 1000 --in ".\100MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 364.218440 s
+Avg Time:   0.364218 s/run
+Throughput: 274.56 MB/s
+
+[+] Running: .\hash.exe --mode SHAKE128 --benchmark -t 1000 --in ".\100MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 163.548981 s
+Avg Time:   0.163549 s/run
+Throughput: 611.44 MB/s
+
+[+] Running: .\hash.exe --mode SHAKE256 --benchmark -t 1000 --in ".\100MB.bin"
+--- Benchmarking 1000 runs (Optimization Enabled) ---
+Total Time: 207.892279 s
+Avg Time:   0.207892 s/run
+Throughput: 481.02 MB/s
+
+
+==== DONE ====
+End: 11/29/2025 11:15:24

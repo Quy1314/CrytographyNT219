@@ -1,0 +1,7 @@
+C:\Documentss\Cryptography\LAB04_BTTL\tasks\guide7\Csharp\bin\Debug\Csharp.exe.config
+C:\Documentss\Cryptography\LAB04_BTTL\tasks\guide7\Csharp\bin\Debug\Csharp.exe
+C:\Documentss\Cryptography\LAB04_BTTL\tasks\guide7\Csharp\bin\Debug\Csharp.pdb
+C:\Documentss\Cryptography\LAB04_BTTL\tasks\guide7\Csharp\obj\Debug\Csharp.csproj.AssemblyReference.cache
+C:\Documentss\Cryptography\LAB04_BTTL\tasks\guide7\Csharp\obj\Debug\Csharp.csproj.CoreCompileInputs.cache
+C:\Documentss\Cryptography\LAB04_BTTL\tasks\guide7\Csharp\obj\Debug\Csharp.exe
+C:\Documentss\Cryptography\LAB04_BTTL\tasks\guide7\Csharp\obj\Debug\Csharp.pdb

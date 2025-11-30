@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        // ---------------------------
+        // MSVC (cl.exe) build task
+        // ---------------------------
+        {
+            "type": "shell",
+            "label": "Build AES DLL with MSVC",
+            "command": "cl.exe",
+            "args": [
+                "/EHsc",
+                "/LD",
+                "/MTd",
+                 "/I", "C:\\Documentss\\Cryptography\\LAB03\\w3code\\w3code\\lib_code\\include\\cryptopp",
+                "${file}",
+                "/link",
+                "/LIBPATH:C:\\Documentss\\Cryptography\\LAB03\\w3code\\w3code\\lib_code\\lib\\cryptopp\\msvc",
+                "cryptlib.lib",
+                "/OUT:${fileDirname}\\${fileBasenameNoExtension}.dll"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": ["$msCompile"],
+            "group": "build",
+            "detail": "compiler: Microsoft cl.exe"
+        }
+    ]
+}

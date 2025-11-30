@@ -1,0 +1,112 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            6a:88:78:13:1b:1d:12:9f:4f:ab:5a:b3:d8:b7:a2:85
+        Signature Algorithm: ecdsa-with-SHA256
+        Issuer: C=GB, ST=Greater Manchester, L=Salford, O=Sectigo Limited, CN=Sectigo ECC Domain Validation Secure Server CA
+        Validity
+            Not Before: Jul 15 00:00:00 2025 GMT
+            Not After : Jul 15 23:59:59 2026 GMT
+        Subject: CN=*.uit.edu.vn
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub:
+                    04:89:4a:87:b2:6a:62:57:c2:30:4c:38:31:aa:41:
+                    1c:b5:73:dd:38:17:de:46:74:b9:62:c2:63:e5:e7:
+                    26:67:0d:26:ac:4d:8d:f1:57:54:94:9e:13:b4:c9:
+                    dc:44:49:a9:62:44:29:e3:c6:4f:4d:e4:37:f5:0b:
+                    69:d3:18:de:64
+                ASN1 OID: prime256v1
+                NIST CURVE: P-256
+        X509v3 extensions:
+            X509v3 Authority Key Identifier: 
+                F6:85:0A:3B:11:86:E1:04:7D:0E:AA:0B:2C:D2:EE:CC:64:7B:7B:AE
+            X509v3 Subject Key Identifier: 
+                EA:35:1E:A9:B5:49:53:12:F6:68:13:97:C0:7A:C8:61:A5:8B:C9:5D
+            X509v3 Key Usage: critical
+                Digital Signature
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Certificate Policies: 
+                Policy: 1.3.6.1.4.1.6449.1.2.2.7
+                  CPS: https://sectigo.com/CPS
+                Policy: 2.23.140.1.2.1
+            Authority Information Access: 
+                CA Issuers - URI:http://crt.sectigo.com/SectigoECCDomainValidationSecureServerCA.crt
+                OCSP - URI:http://ocsp.sectigo.com
+            X509v3 Subject Alternative Name: 
+                DNS:*.uit.edu.vn, DNS:uit.edu.vn
+            CT Precertificate SCTs: 
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : D8:09:55:3B:94:4F:7A:FF:C8:16:19:6F:94:4F:85:AB:
+                                B0:F8:FC:5E:87:55:26:0F:15:D1:2E:72:BB:45:4B:14
+                    Timestamp : Jul 15 07:55:37.811 2025 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:46:02:21:00:D7:39:C1:50:24:CF:2C:79:D2:92:04:
+                                D5:89:8B:32:0E:F9:53:1C:3E:B9:CA:DC:D4:2C:23:89:
+                                CE:63:8B:8B:CC:02:21:00:FE:C6:8A:42:36:AE:2D:6F:
+                                4F:9F:96:0B:17:0E:AB:CD:C8:CE:14:FD:C3:78:4B:47:
+                                8F:F5:E5:B4:71:84:EF:09
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : AC:AB:30:70:6C:EB:EC:84:31:F4:13:D2:F4:91:5F:11:
+                                1E:42:24:43:B1:F2:A6:8C:4F:3C:2B:3B:A7:1E:02:C3
+                    Timestamp : Jul 15 07:55:37.785 2025 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:45:02:20:2E:59:86:36:96:E7:6E:E4:67:FB:13:93:
+                                EB:B7:69:C0:B7:44:05:F2:7E:20:B0:11:D3:4F:55:EA:
+                                1C:24:6C:7E:02:21:00:C5:01:47:C5:E2:34:A9:7B:B9:
+                                25:B9:A3:93:D4:E0:79:03:DA:D2:AE:71:22:4D:19:E8:
+                                AB:98:89:71:3D:21:1C
+                Signed Certificate Timestamp:
+                    Version   : v1 (0x0)
+                    Log ID    : D7:6D:7D:10:D1:A7:F5:77:C2:C7:E9:5F:D7:00:BF:F9:
+                                82:C9:33:5A:65:E1:D0:B3:01:73:17:C0:C8:C5:69:77
+                    Timestamp : Jul 15 07:55:37.918 2025 GMT
+                    Extensions: none
+                    Signature : ecdsa-with-SHA256
+                                30:44:02:20:23:B8:B5:4B:AB:A6:01:EC:0C:29:4E:B7:
+                                89:BD:AA:05:F7:B1:54:0D:AD:C9:3A:21:55:BD:C6:3F:
+                                1B:4D:69:D0:02:20:65:CF:7A:29:F7:0F:65:81:E5:07:
+                                83:2C:9B:3B:F2:ED:32:53:B5:84:91:A5:EB:5D:EC:24:
+                                EC:85:42:41:B4:40
+    Signature Algorithm: ecdsa-with-SHA256
+    Signature Value:
+        30:45:02:21:00:b3:47:4b:33:66:ce:5e:58:93:5d:bf:47:94:
+        76:e7:12:59:a0:90:45:39:b2:ad:e6:c2:91:4b:89:5d:1a:09:
+        08:02:20:58:7d:04:88:31:92:cc:82:2e:da:52:f1:f4:25:d7:
+        15:58:db:be:99:c7:9e:39:70:4f:06:3e:50:5b:63:0d:da
+-----BEGIN CERTIFICATE-----
+MIIEoTCCBEegAwIBAgIQaoh4ExsdEp9Pq1qz2LeihTAKBggqhkjOPQQDAjCBjzEL
+MAkGA1UEBhMCR0IxGzAZBgNVBAgTEkdyZWF0ZXIgTWFuY2hlc3RlcjEQMA4GA1UE
+BxMHU2FsZm9yZDEYMBYGA1UEChMPU2VjdGlnbyBMaW1pdGVkMTcwNQYDVQQDEy5T
+ZWN0aWdvIEVDQyBEb21haW4gVmFsaWRhdGlvbiBTZWN1cmUgU2VydmVyIENBMB4X
+DTI1MDcxNTAwMDAwMFoXDTI2MDcxNTIzNTk1OVowFzEVMBMGA1UEAwwMKi51aXQu
+ZWR1LnZuMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEiUqHsmpiV8IwTDgxqkEc
+tXPdOBfeRnS5YsJj5ecmZw0mrE2N8VdUlJ4TtMncREmpYkQp48ZPTeQ39Qtp0xje
+ZKOCAvowggL2MB8GA1UdIwQYMBaAFPaFCjsRhuEEfQ6qCyzS7sxke3uuMB0GA1Ud
+DgQWBBTqNR6ptUlTEvZoE5fAeshhpYvJXTAOBgNVHQ8BAf8EBAMCB4AwDAYDVR0T
+AQH/BAIwADAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwSQYDVR0gBEIw
+QDA0BgsrBgEEAbIxAQICBzAlMCMGCCsGAQUFBwIBFhdodHRwczovL3NlY3RpZ28u
+Y29tL0NQUzAIBgZngQwBAgEwgYQGCCsGAQUFBwEBBHgwdjBPBggrBgEFBQcwAoZD
+aHR0cDovL2NydC5zZWN0aWdvLmNvbS9TZWN0aWdvRUNDRG9tYWluVmFsaWRhdGlv
+blNlY3VyZVNlcnZlckNBLmNydDAjBggrBgEFBQcwAYYXaHR0cDovL29jc3Auc2Vj
+dGlnby5jb20wIwYDVR0RBBwwGoIMKi51aXQuZWR1LnZuggp1aXQuZWR1LnZuMIIB
+fgYKKwYBBAHWeQIEAgSCAW4EggFqAWgAdwDYCVU7lE96/8gWGW+UT4WrsPj8XodV
+Jg8V0S5yu0VLFAAAAZgNFQPTAAAEAwBIMEYCIQDXOcFQJM8sedKSBNWJizIO+VMc
+PrnK3NQsI4nOY4uLzAIhAP7GikI2ri1vT5+WCxcOq83IzhT9w3hLR4/15bRxhO8J
+AHYArKswcGzr7IQx9BPS9JFfER5CJEOx8qaMTzwrO6ceAsMAAAGYDRUDuQAABAMA
+RzBFAiAuWYY2ludu5Gf7E5Prt2nAt0QF8n4gsBHTT1XqHCRsfgIhAMUBR8XiNKl7
+uSW5o5PU4HkD2tKucSJNGeirmIlxPSEcAHUA1219ENGn9XfCx+lf1wC/+YLJM1pl
+4dCzAXMXwMjFaXcAAAGYDRUEPgAABAMARjBEAiAjuLVLq6YB7AwpTreJvaoF97FU
+Da3JOiFVvcY/G01p0AIgZc96KfcPZYHlB4Msmzvy7TJTtYSRpetd7CTshUJBtEAw
+CgYIKoZIzj0EAwIDSAAwRQIhALNHSzNmzl5Yk12/R5R25xJZoJBFObKt5sKRS4ld
+GgkIAiBYfQSIMZLMgi7aUvH0JdcVWNu+mceeOXBPBj5QW2MN2g==
+-----END CERTIFICATE-----

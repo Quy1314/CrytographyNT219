@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        // ---------------------------
+        // MSVC (cl.exe) build task
+        // ---------------------------
+        {
+            "type": "shell",
+            "label": "C/C++: cl.exe build active file (MSVC)",
+            "command": "cl.exe",
+            "args": [
+                "/EHsc",
+                "/O2",
+                "/DNDEBUG",
+                "/Fe:${fileDirname}\\${fileBasenameNoExtension}.exe",
+                "${file}",
+                "/I", "${workspaceFolder}\\include",
+                "/link",
+                "/LIBPATH:${workspaceFolder}\\lib",
+                "cryptlib.lib"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": ["$msCompile"],
+            "group": "build",
+            "detail": "compiler: Microsoft cl.exe"
+        }
+    ]
+}
