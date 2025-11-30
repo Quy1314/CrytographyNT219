@@ -1,9 +1,0 @@
-=== RSA Benchmark Results (Total Time 1000 runs in ms) ===
-
-{1KB}: 390.075 ms
-{4KB}: 318.915 ms
-{16KB}: 571.42 ms
-{256KB}: 987.052 ms
-{1MB}: 2214.153 ms
-{4MB}: 4322.137 ms
-{8MB}: 8897.819 ms

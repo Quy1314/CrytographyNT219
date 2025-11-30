@@ -1,8 +1,0 @@
-Connecting to 23.32.74.121
-depth=2 OU=GlobalSign Root CA - R3, O=GlobalSign, CN=GlobalSign
-verify return:1
-depth=1 C=BE, O=GlobalSign nv-sa, CN=GlobalSign RSA OV SSL CA 2018
-verify return:1
-depth=0 C=VN, ST=Ha Noi, L=Ha Noi, O=JOINT STOCK COMMERCIAL BANK FOR FOREIGN TRADE OF VIETNAM, CN=*.vietcombank.com.vn
-verify return:1
-DONE

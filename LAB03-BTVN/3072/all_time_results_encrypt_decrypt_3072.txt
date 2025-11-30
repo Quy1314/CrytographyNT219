@@ -1,9 +1,0 @@
-=== RSA Benchmark Results (Total Time 1000 runs in ms) ===
-
-{1KB}:  Encrypt = 244.332 ms,   Decrypt = 3730.105 ms
-{4KB}:  Encrypt = 321.513 ms,   Decrypt = 4500.053 ms
-{16KB}: Encrypt = 364.487 ms,   Decrypt = 5200.530 ms
-{256KB}:Encrypt = 518.432 ms,   Decrypt = 6072.420 ms
-{1MB}:  Encrypt = 1235.998 ms,  Decrypt = 6800.000 ms
-{4MB}:  Encrypt = 4468.808 ms,  Decrypt = 7541.318 ms
-{8MB}:  Encrypt = 8002.292 ms,  Decrypt = 9353.807 ms

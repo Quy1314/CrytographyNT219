@@ -1,7 +1,0 @@
-C:\Documentss\Cryptography\LAB03\C#\bin\Debug\C#.exe.config
-C:\Documentss\Cryptography\LAB03\C#\bin\Debug\C#.exe
-C:\Documentss\Cryptography\LAB03\C#\bin\Debug\C#.pdb
-C:\Documentss\Cryptography\LAB03\C#\obj\Debug\C#.csproj.AssemblyReference.cache
-C:\Documentss\Cryptography\LAB03\C#\obj\Debug\C#.csproj.CoreCompileInputs.cache
-C:\Documentss\Cryptography\LAB03\C#\obj\Debug\C#.exe
-C:\Documentss\Cryptography\LAB03\C#\obj\Debug\C#.pdb

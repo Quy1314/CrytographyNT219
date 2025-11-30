@@ -1,2 +1,0 @@
-D:\Pythons\Python312-mmh\python.exe -m pip install matplotlib numpy
-Note: repalce to your python path
