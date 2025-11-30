@@ -1,0 +1,53 @@
+# Build directories
+build/
+bin/
+obj/
+out/
+Debug/
+Release/
+x64/
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.o
+
+# Visual Studio / VSCode generated
+.vscode/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.user
+*.ipch
+*.opendb
+*.tlog/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# CryptoPP / OpenSSL libraries
+**/libcryptopp.a
+**/libcryptopp.so
+**/cryptlib.lib
+**/libcrypto*
+**/libssl*
+
+# Test files lớn
+*.bin
+*.dat
+
+# Log & results
+*.log
+result*.txt
+*.csv
+*.json
+
+# Other temporary/system files
+*.tmp
+*.bak
+*.cache
+Thumbs.db
+.DS_Store
